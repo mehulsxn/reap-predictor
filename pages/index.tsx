@@ -148,10 +148,6 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <footer className="absolute bottom-0 w-full py-2 text-center font-medium text-indigo-900">
-        Made by Mehul Saxena
-      </footer>
-
       <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
           <Transition.Child
